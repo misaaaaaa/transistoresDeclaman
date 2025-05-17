@@ -25,9 +25,11 @@ También utilizada en obra ["Transistores en tránsito"](https://misaa.cc/projec
 
 - Pin 5 de 555 NO debe ir a tierra directamente
 
-- Q1 tiene comportamiento extraño. No ubicar
+- Q1 tiene comportamiento extraño. No ubicar y puentear pines 2 y 3
 
 - D13 es demasiado brillante, se recomienda no instalar. Se podría instalar una resistencia más grande en R14
+
+- Las bobinas deben ser de alrededor de 8 a 12 ohm
 
 
 ## BOM
@@ -57,3 +59,8 @@ También utilizada en obra ["Transistores en tránsito"](https://misaa.cc/projec
 ![layout](layout_front.png)
 
 ![layout](layout_back.png)
+
+## Expo MAC
+
+![expomac](https://misaa.cc/img/projects/tent4.jpg)
+Foto: Clo Rojo
