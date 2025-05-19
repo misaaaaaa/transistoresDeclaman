@@ -34,27 +34,28 @@ También utilizada en obra ["Transistores en tránsito"](https://misaa.cc/projec
 
 ## BOM
 
-| Referencia  | Valor          | Huella                                        | Cantidad |
-|-------------|----------------|-----------------------------------------------|----------|
-| R1,R2,R3,R5 | 1k             | Resistencia SMD 0805                          |        4 |
-| U1          | Socket         | DIP-8                                         |        1 |
-| U2          | L7805          | Regulador de voltaje TO-252                   |        1 |
-| R4          | 100k           | Resistencia THT                               |        1 |
-| D1,D2       | 1N4148         | Diodo                                         |        2 |
-| D4,D5       | 1N4007         | Diodo                                         |        2 |
-| C2,C4,C7    | 100n           | Condensador                                   |        3 |
-| C1          | 1000uf         | Condensador electrolítico                     |        1 |
-| C3          | 100uF          | Condensador electrolítico                     |        1 |
-| C5,C6       | 10uF           | Condensador electrolítico                     |        2 |
-| D3,D6       | LED            | Led 3mm                                       |        2 |
-| J4,J5,J6,J8 | JUMPER         | Pin Header                                    |        4 |
-| J1,J2       | Barrel_Jack    | Connector_BarrelJack:BarrelJack_Horizontal    |        2 |
-| J3          | TERMINAL_BLOCK | TerminalBlock:TerminalBlock_bornier-3_P5.08mm |        1 |
-| J7          | JACK_TS        | Jack SJ-3525N                                 |        1 |
-| K1          | LEG-12F        | Relé 12V                                      |        1 |
-| Q1          | IRFZ44n        | Transitor MOSFET TO-220                       |        1 |
-| RV1,RV2     | 100k           | Trimpot RM-065                                |        2 |
-| U1          | NE555P         | DIP-8                                         |        1 |
+| Reference                                | Value       | Footprint                 | Qty |
+|------------------------------------------|-------------|---------------------------|-----|
+| R1,R2,R3,R5,R6,R7,R8,R10,R12,R13,R14,R16 | 1k          | Resistencia SMD 0805      |  12 |
+| U4                                       | L7805       | Regulador TO-252          |   1 |
+| U3                                       | NE555P      | DIP-8                     |   1 |
+| U1,U2                                    | Socket      | DIP-14                    |   2 |
+| R11,R15                                  | 100k        | Resistencia THT           |   2 |
+| R4,R9,R17                                | 10k         | Resistencia THT           |   3 |
+| D4,D5,D6                                 | 1N4148      | Diodo                     |   3 |
+| D11,D14                                  | 1N4007      | Diodo                     |   2 |
+| Q1,Q3                                    | 2n2222      | Transistor to-92          |   2 |
+| C6,C8,C9,C11                             | 100n        | Condensador               |   4 |
+| C1,C2,C3,C10                             | 100uF       | Condensador Electrolítico |   4 |
+| C4                                       | 22uF        | Condensador Electrolítico |   1 |
+| C5,C7,C12                                | 10uF        | Condensador Electrolítico |   3 |
+| D1,D2,D3,D7,D8,D9,D10,D12,D13            | LED         | Led 3mm                   |   9 |
+| RV1,RV2,RV3                              | 100k        | Trim RM-065               |   3 |
+| Q2                                       | IRFZ44n     | Transistor to-220         |   1 |
+| J1,J2                                    | Barrel_Jack | Jack DC 2.1mm             |   2 |
+| J3,J5                                    | JUMPER      | Pin header 2              |   2 |
+| U3                                       | Socket      | DIP-8                     |   1 |
+| U1,U2                                    | CD4093      | DIP-14                    |   2 |
 
 ![layout](layout_front.png)
 
