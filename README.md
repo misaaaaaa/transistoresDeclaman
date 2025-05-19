@@ -34,28 +34,30 @@ También utilizada en obra ["Transistores en tránsito"](https://misaa.cc/projec
 
 ## BOM
 
-| Reference                                | Value       | Footprint                 | Qty |
-|------------------------------------------|-------------|---------------------------|-----|
-| R1,R2,R3,R5,R6,R7,R8,R10,R12,R13,R14,R16 | 1k          | Resistencia SMD 0805      |  12 |
-| U4                                       | L7805       | Regulador TO-252          |   1 |
-| U3                                       | NE555P      | DIP-8                     |   1 |
+| Reference                                     | Value       | Footprint                 | Qty |
+|------------------------------------------     |-------------|---------------------------|-----|
+| R1,R2,R3,R5,R6,R7,R8,R10,R12,R13,~R14~,R16    | 1k          | Resistencia SMD 0805      |  12 |
+| U4                                            | L7805       | Regulador TO-252          |   1 |
+| U3                                       | Socket      | DIP-8                     |   1 |
 | U1,U2                                    | Socket      | DIP-14                    |   2 |
 | R11,R15                                  | 100k        | Resistencia THT           |   2 |
-| R4,R9,R17                                | 10k         | Resistencia THT           |   3 |
+| R4,~R9~,R17                                | 10k         | Resistencia THT           |   3 |
 | D4,D5,D6                                 | 1N4148      | Diodo                     |   3 |
 | D11,D14                                  | 1N4007      | Diodo                     |   2 |
-| Q1,Q3                                    | 2n2222      | Transistor to-92          |   2 |
+| Q1*,Q3                                    | 2n2222      | Transistor to-92          |   2 |
 | C6,C8,C9,C11                             | 100n        | Condensador               |   4 |
 | C1,C2,C3,C10                             | 100uF       | Condensador Electrolítico |   4 |
-| C4                                       | 22uF        | Condensador Electrolítico |   1 |
-| C5,C7,C12                                | 10uF        | Condensador Electrolítico |   3 |
-| D1,D2,D3,D7,D8,D9,D10,D12,D13            | LED         | Led 3mm                   |   9 |
+| C4,C5,C7,C12                             | 10uF        | Condensador Electrolítico |   4 |
+| D1,D2,D3,D7,D8,D9,D10,D12,~D13~          | LED         | Led 3mm                   |   9 |
+| J3,J5                                    | JUMPER      | Pin header 2              |   2 |
 | RV1,RV2,RV3                              | 100k        | Trim RM-065               |   3 |
 | Q2                                       | IRFZ44n     | Transistor to-220         |   1 |
 | J1,J2                                    | Barrel_Jack | Jack DC 2.1mm             |   2 |
-| J3,J5                                    | JUMPER      | Pin header 2              |   2 |
-| U3                                       | Socket      | DIP-8                     |   1 |
+| J3,~J5~                                    | JUMPER      | Jumper 2p                 |   2 |
+| U3                                       | NE555P      | DIP-8                     |   1 |
 | U1,U2                                    | CD4093      | DIP-14                    |   2 |
+
+\* Reemplazar por puente entre pines 2 y 3
 
 ![layout](layout_front.png)
 
