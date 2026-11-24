@@ -3571,6 +3571,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:VDD"
 			(power global)
 			(pin_numbers
@@ -3846,6 +3961,12 @@
 		(uuid "371b454c-6d80-4924-8adc-ff57ceb4a3a7")
 	)
 	(junction
+		(at 195.199 150.114)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3acba20b-1fdf-4ece-adab-ea73a3459fa1")
+	)
+	(junction
 		(at 118.872 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3936,12 +4057,6 @@
 		(uuid "9b7f7c85-08c1-48e7-9313-637d82f5c91b")
 	)
 	(junction
-		(at 195.58 158.115)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9bc9248a-bdda-41d9-9d62-2c46961bb5e1")
-	)
-	(junction
 		(at 127 127.635)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3958,6 +4073,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b7cf464b-6502-468a-9568-064d161e3883")
+	)
+	(junction
+		(at 193.675 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8ae0a12-8d7e-4499-beaa-f56176b21519")
 	)
 	(junction
 		(at 88.9 123.444)
@@ -3984,16 +4105,16 @@
 		(uuid "d5b03a9f-2582-4b04-a850-aebcc04f2d95")
 	)
 	(junction
+		(at 196.85 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d631041d-9313-4aae-965e-740102ad03e9")
+	)
+	(junction
 		(at 62.23 137.922)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7d7e6a1-db49-424f-b34e-98af3f2dcb91")
-	)
-	(junction
-		(at 198.755 140.335)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e1333499-e765-4a87-9a6a-17ad28408d94")
 	)
 	(junction
 		(at 216.662 126.111)
@@ -4048,12 +4169,20 @@
 		(uuid "3717ff15-7b37-4442-92e8-27bbf37d8d72")
 	)
 	(no_connect
+		(at 188.722 154.94)
+		(uuid "599dab33-9c36-4912-902c-8c0115a67ee1")
+	)
+	(no_connect
 		(at 41.91 105.156)
 		(uuid "7707edb0-aa3d-4055-9326-29450e1c1cd5")
 	)
 	(no_connect
 		(at 93.726 113.284)
 		(uuid "982f585a-6996-4b8c-93ff-d8056203a36c")
+	)
+	(no_connect
+		(at 189.484 142.24)
+		(uuid "aa60bfd0-6236-42c6-8f56-ba2ec0179c15")
 	)
 	(no_connect
 		(at 42.164 159.512)
@@ -4171,6 +4300,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.199 139.8931) (xy 195.199 150.114)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ae38f38-10f8-4592-aeb6-d9a9aa8b9695")
+	)
+	(wire
+		(pts
 			(xy 170.434 122.555) (xy 189.865 122.555)
 		)
 		(stroke
@@ -4271,7 +4410,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 158.115) (xy 195.58 158.115)
+			(xy 188.722 157.48) (xy 193.675 157.48)
 		)
 		(stroke
 			(width 0)
@@ -4341,7 +4480,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 140.335) (xy 198.755 140.335)
+			(xy 189.484 139.7) (xy 196.85 139.7)
 		)
 		(stroke
 			(width 0)
@@ -4451,7 +4590,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 145.415) (xy 195.58 158.115)
+			(xy 193.675 144.78) (xy 193.675 157.48)
 		)
 		(stroke
 			(width 0)
@@ -4631,6 +4770,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.028 155.702) (xy 224.028 157.226)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d7a99cd-523a-4bfb-bc47-9ff79b550427")
+	)
+	(wire
+		(pts
 			(xy 139.7 170.815) (xy 150.495 170.815)
 		)
 		(stroke
@@ -4668,16 +4817,6 @@
 			(type default)
 		)
 		(uuid "5c08e024-71f0-420a-b692-2c405a4fe25c")
-	)
-	(wire
-		(pts
-			(xy 198.755 140.335) (xy 198.755 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d4f8e74-46b2-40a7-8a19-308b53262fd5")
 	)
 	(wire
 		(pts
@@ -4731,7 +4870,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 145.415) (xy 195.58 145.415)
+			(xy 189.484 144.78) (xy 193.675 144.78)
 		)
 		(stroke
 			(width 0)
@@ -4758,6 +4897,16 @@
 			(type default)
 		)
 		(uuid "6571a35d-7f31-47da-a0da-39090e83e5ef")
+	)
+	(wire
+		(pts
+			(xy 202.057 150.114) (xy 195.199 150.114)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68d0fc41-817c-431e-909f-0cb974a2fb9e")
 	)
 	(wire
 		(pts
@@ -4831,6 +4980,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 139.7) (xy 196.85 137.922)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "703f4023-493e-48c0-b48e-64859ed8281f")
+	)
+	(wire
+		(pts
 			(xy 123.825 57.15) (xy 133.35 57.15)
 		)
 		(stroke
@@ -4838,6 +4997,16 @@
 			(type default)
 		)
 		(uuid "71e94a37-1300-4b8d-b6ef-792820311878")
+	)
+	(wire
+		(pts
+			(xy 193.675 157.48) (xy 193.675 158.242)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72810357-b4c7-4d9a-b9dd-c34c3ec09f9a")
 	)
 	(wire
 		(pts
@@ -4858,6 +5027,16 @@
 			(type default)
 		)
 		(uuid "7403d766-e527-408a-a3f7-111c8a12440f")
+	)
+	(wire
+		(pts
+			(xy 235.204 151.384) (xy 235.204 152.654)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75e60ef5-f9fd-4d95-8295-710d4cc4dc85")
 	)
 	(wire
 		(pts
@@ -4908,6 +5087,16 @@
 			(type default)
 		)
 		(uuid "79b2f79e-75db-4dbb-84ec-ae4554cdf418")
+	)
+	(wire
+		(pts
+			(xy 195.199 139.8931) (xy 196.85 139.827)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79d31285-326b-4cfa-912f-c9a97fb35065")
 	)
 	(wire
 		(pts
@@ -4968,16 +5157,6 @@
 			(type default)
 		)
 		(uuid "83862bad-ede1-43fb-ac74-34d68aadc4b4")
-	)
-	(wire
-		(pts
-			(xy 195.58 158.115) (xy 195.58 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83b03dcd-40b9-4d37-b573-05c6dfd29ee6")
 	)
 	(wire
 		(pts
@@ -5171,6 +5350,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 139.7) (xy 196.85 139.827)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95735bab-4927-4e66-9e82-6027ed2ac6a4")
+	)
+	(wire
+		(pts
 			(xy 133.35 57.15) (xy 133.35 40.005)
 		)
 		(stroke
@@ -5181,7 +5370,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 153.035) (xy 198.755 153.035)
+			(xy 194.945 152.5931) (xy 195.199 152.5931)
 		)
 		(stroke
 			(width 0)
@@ -5551,6 +5740,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.199 150.114) (xy 195.199 152.5931)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5b77517-9719-491b-bc45-da0ec483e455")
+	)
+	(wire
+		(pts
 			(xy 154.94 127.508) (xy 154.94 127.762)
 		)
 		(stroke
@@ -5611,16 +5810,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.755 153.035) (xy 198.755 140.335)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0a1051b-c749-4e50-a6e7-8261a6ce4c15")
-	)
-	(wire
-		(pts
 			(xy 27.432 99.568) (xy 27.432 106.68)
 		)
 		(stroke
@@ -5678,6 +5867,26 @@
 			(type default)
 		)
 		(uuid "e6fce7b4-532f-4a86-84c5-97b81705dc44")
+	)
+	(wire
+		(pts
+			(xy 194.945 152.5931) (xy 194.945 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7c7c556-ed97-4578-b1eb-e388b20649d2")
+	)
+	(wire
+		(pts
+			(xy 194.945 152.4) (xy 188.722 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9ae0a97-f6aa-4450-9df2-2406bd137715")
 	)
 	(wire
 		(pts
@@ -6837,7 +7046,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 195.58 158.75 0)
+		(at 193.675 158.242 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6848,7 +7057,7 @@
 		(fields_autoplaced yes)
 		(uuid "23c3d1a9-4288-4fe0-9925-bfe301f58566")
 		(property "Reference" "#PWR043"
-			(at 195.58 165.1 0)
+			(at 193.675 164.592 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6859,7 +7068,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 195.58 163.83 0)
+			(at 193.675 163.322 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6869,7 +7078,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 158.75 0)
+			(at 193.675 158.242 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6880,7 +7089,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 158.75 0)
+			(at 193.675 158.242 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6891,7 +7100,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 195.58 158.75 0)
+			(at 193.675 158.242 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10113,6 +10322,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 235.204 151.384 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c370ca6-9abf-4196-81b4-9d86cabc8302")
+		(property "Reference" "#PWR059"
+			(at 235.204 155.194 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 235.204 146.304 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 235.204 151.384 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 235.204 151.384 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 235.204 151.384 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5453b3fc-4bff-458a-abfa-38657dbc86fc")
+		)
+		(instances
+			(project "transistoresDeclaman-rev-b"
+				(path "/13e5c545-f2c4-4009-946d-5036599f0057"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 150.495 167.005 0)
 		(unit 1)
@@ -10436,6 +10723,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 235.204 152.654 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78bd5fee-ec61-4f15-ab3f-497f72a68522")
+		(property "Reference" "#FLG03"
+			(at 235.204 154.559 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 235.204 157.988 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 235.204 152.654 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 235.204 152.654 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 235.204 152.654 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "58057c3f-77b3-4b7a-9e7b-16a5190864ec")
+		)
+		(instances
+			(project "transistoresDeclaman-rev-b"
+				(path "/13e5c545-f2c4-4009-946d-5036599f0057"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Linear:L7805")
 		(at 255.905 126.111 0)
 		(unit 1)
@@ -10681,8 +11046,8 @@
 		)
 	)
 	(symbol
-		(lib_id "conn:Barrel_Jack")
-		(at 184.15 142.875 0)
+		(lib_id "power:PWR_FLAG")
+		(at 224.028 155.702 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10690,9 +11055,11 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "7e04875b-b210-4e43-ac4d-542d074fbaf6")
-		(property "Reference" "J2"
-			(at 184.7215 134.62 0)
+		(fields_autoplaced yes)
+		(uuid "7c0de84e-d596-4649-b68c-2c574c66ac4e")
+		(property "Reference" "#FLG02"
+			(at 224.028 153.797 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10701,8 +11068,8 @@
 				)
 			)
 		)
-		(property "Value" "Barrel_Jack"
-			(at 184.7215 137.16 0)
+		(property "Value" "PWR_FLAG"
+			(at 224.028 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10712,7 +11079,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 143.891 0)
+			(at 224.028 155.702 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10723,7 +11090,83 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 143.891 0)
+			(at 224.028 155.702 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 224.028 155.702 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "694599e8-55ac-4400-bbf3-032035454c9b")
+		)
+		(instances
+			(project "transistoresDeclaman-rev-b"
+				(path "/13e5c545-f2c4-4009-946d-5036599f0057"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "conn:Barrel_Jack")
+		(at 181.864 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7e04875b-b210-4e43-ac4d-542d074fbaf6")
+		(property "Reference" "J2"
+			(at 182.4355 133.985 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Barrel_Jack"
+			(at 182.4355 136.525 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 183.134 143.256 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 183.134 143.256 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10734,7 +11177,7 @@
 			)
 		)
 		(property "Description" "DC Barrel Jack"
-			(at 184.15 142.875 0)
+			(at 181.864 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12933,6 +13376,84 @@
 			(project "transistoresDeclaman-rev-b"
 				(path "/13e5c545-f2c4-4009-946d-5036599f0057"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 202.057 150.114 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aaf4b43b-bcde-4a51-a630-cca6e94de7e5")
+		(property "Reference" "#FLG01"
+			(at 202.057 148.209 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 202.057 145.542 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 202.057 150.114 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 202.057 150.114 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 202.057 150.114 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "43a707cd-8795-4f4f-bc40-1444b54a62e9")
+		)
+		(instances
+			(project "transistoresDeclaman-rev-b"
+				(path "/13e5c545-f2c4-4009-946d-5036599f0057"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -15180,7 +15701,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 198.755 138.43 0)
+		(at 196.85 137.922 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15191,7 +15712,7 @@
 		(fields_autoplaced yes)
 		(uuid "de38c46e-1d94-417f-938d-b2f037e5603a")
 		(property "Reference" "#PWR044"
-			(at 198.755 142.24 0)
+			(at 196.85 141.732 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15202,7 +15723,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 198.755 133.985 0)
+			(at 196.85 133.477 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15212,7 +15733,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.755 138.43 0)
+			(at 196.85 137.922 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15223,7 +15744,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.755 138.43 0)
+			(at 196.85 137.922 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15234,7 +15755,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 198.755 138.43 0)
+			(at 196.85 137.922 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15341,7 +15862,7 @@
 	)
 	(symbol
 		(lib_id "conn:Barrel_Jack")
-		(at 184.15 155.575 0)
+		(at 181.102 154.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15351,7 +15872,7 @@
 		(dnp no)
 		(uuid "df85f01a-84a4-445c-a12f-e257ecfdb3d0")
 		(property "Reference" "J3"
-			(at 184.7215 147.32 0)
+			(at 181.6735 146.685 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15361,7 +15882,7 @@
 			)
 		)
 		(property "Value" "Barrel_Jack"
-			(at 184.7215 149.86 0)
+			(at 181.6735 149.225 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15371,7 +15892,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 156.591 0)
+			(at 182.372 155.956 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15382,7 +15903,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 156.591 0)
+			(at 182.372 155.956 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15393,7 +15914,7 @@
 			)
 		)
 		(property "Description" "DC Barrel Jack"
-			(at 184.15 155.575 0)
+			(at 181.102 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15927,6 +16448,84 @@
 			(project "transistoresDeclaman-rev-b"
 				(path "/13e5c545-f2c4-4009-946d-5036599f0057"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 224.028 157.226 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb3bc601-e37c-4789-848b-29218ddc6343")
+		(property "Reference" "#PWR058"
+			(at 224.028 163.576 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 224.028 162.306 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.028 157.226 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.028 157.226 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 224.028 157.226 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0187e669-e023-4530-9784-b4ada08e34f7")
+		)
+		(instances
+			(project "transistoresDeclaman-rev-b"
+				(path "/13e5c545-f2c4-4009-946d-5036599f0057"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
