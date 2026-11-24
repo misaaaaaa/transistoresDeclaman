@@ -5,6 +5,7 @@
 *.lck
 _autosave-*
 fp-info-cache
+.history/
 *.wrl
 *.step
 
