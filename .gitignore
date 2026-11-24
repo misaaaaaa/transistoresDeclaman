@@ -13,3 +13,4 @@ fp-info-cache
 *.csv
 !**/bom.csv
 !**/*-pcba/*.csv
+.easyeda_cache/

@@ -1,0 +1,14 @@
+Categoría,Valor,Footprint,JLCPCB Part #,Descripción,Qty (2026-11-10)
+Resistors,1kΩ,0805,C2907232,-55℃~+155℃ 125mW 150V 1kΩ Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS,9925
+Resistors,10kΩ,0805,C17414,-55℃~+155℃ 10kΩ 125mW 150V Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS,4905
+Resistors,100kΩ,0805,C25611,-55℃~+155℃ 100kΩ 125mW 150V Thick Film Resistor ±100ppm/℃ ±5% 0805 Chip Resistor - Surface Mount ROHS,5000
+Resistors,4.7kΩ,0805,C17673,-55℃~+155℃ 125mW 150V 4.7kΩ Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS,
+Capacitors,100nF,0805,C49678,100nF 50V X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS,880
+Capacitors,10uF,1206,C13585,10uF 50V X5R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS,300
+Capacitors,100uF,"SMD,D6.3xL7.7mm",C72478,"-40℃~+105℃ 100uF 2000hrs@105℃ 35V 6.3mm 69mA@120Hz 7.7mm ±20% SMD,D6.3xL7.7mm Aluminum Electrolytic Capacitors - SMD ROHS",1000
+Power Management (PMIC),7805,TO-252,C19626525,"0℃~+125℃ 1 1.5A 20V 2V@(1A) 4.75V~5.25V 73dB@(120Hz) 8mA Fixed Over Temperature Protection、Short Circuit Protection Positive TO-252 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",120
+Clock/Timing,TLC555CDR,SOIC-8,C6986,0℃~+70℃ 2.1MHz 2V~15V 360uA SOIC-8 555 Timers / Counters ROHS,
+Transistors/Thyristors,AOD4184A,TO-252,C99124,-55℃~+175℃ 1 N-channel 1.8nF 13A、50A 2.3W、50W 2.6V 33nC@10V 40V 7mΩ@10V TO-252 MOSFETs ROHS,
+Diodes,SS34,SMA(DO-214AC),C8678,-55℃~+125℃ 3A 40V 500uA@40V 550mV@3A Independent SMA(DO-214AC) Schottky Diodes ROHS,
+Transistors/Thyristors,MMBT2222A,SOT-23,C8512,-55℃~+150℃ 1 NPN 100 10nA 300MHz 300mW 40V 600mA 6V NPN SOT-23 Bipolar (BJT) ROHS,
+Diodes,1N4148WS,SOD-323,C2128,1.25V@150mA 100V 150mA 1uA@75V 200mW 2A 4ns Independent SOD-323 Switching Diodes ROHS,
