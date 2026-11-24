@@ -1,1 +1,9 @@
 .DS_Store
+
+# KiCad: respaldos, locks y exportaciones regenerables
+*-backups/
+*.lck
+_autosave-*
+fp-info-cache
+*.wrl
+*.step
