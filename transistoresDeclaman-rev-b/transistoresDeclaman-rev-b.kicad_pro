@@ -478,7 +478,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "transistoresDeclaman.kicad_pro",
+    "filename": "transistoresDeclaman-rev-b.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -512,21 +512,21 @@
   },
   "pcbnew": {
     "last_paths": {
-      "gencad": "../../../../Downloads/transistoresDeclaman.cad",
+      "gencad": "",
       "idf": "",
       "netlist": "",
       "plot": "tDeclaman_gerb/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../../../Downloads/transistoresDeclaman.step",
+      "step": "",
       "svg": "",
-      "vrml": "../../../../Downloads/transistoresDeclaman.wrl"
+      "vrml": ""
     },
     "page_layout_descr_file": ""
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "transistoresDeclaman.csv",
+    "bom_export_filename": "bom.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -649,8 +649,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "transistoresDeclaman.kicad_sch",
-        "name": "transistoresDeclaman",
+        "filename": "transistoresDeclaman-rev-b.kicad_sch",
+        "name": "transistoresDeclaman-rev-b",
         "uuid": "00000000-0000-0000-0000-000000000000"
       }
     ]

@@ -7,3 +7,8 @@ _autosave-*
 fp-info-cache
 *.wrl
 *.step
+
+# csv: KiCad genera temporales; dejar pasar el bom y los de fabricación
+*.csv
+!**/bom.csv
+!**/*-pcba/*.csv

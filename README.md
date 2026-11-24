@@ -9,11 +9,32 @@ Circuito activador de sistema iman-bobina en base a circuito de compuertas NAND 
 
 También utilizada en obra ["Transistores en tránsito"](https://misaa.cc/projects/transistoresentransito.html) (MAC 2025), controlando bobinas suspendidas en la pared
 
-![foto](./front.jpg)
+![foto](./transistoresDeclaman-rev-a/front.jpg)
 
-## Esquemático
+## Revisiones
 
-![sch](./sch.png)
+| Carpeta | Estado |
+|---|---|
+| [`transistoresDeclaman-rev-a/`](transistoresDeclaman-rev-a/) | Fabricada (JLC Y44-2398046A), THT. Archivos de diseño, esquemático y fotos de esa versión. Solo registro: no editar. |
+| [`transistoresDeclaman-rev-b/`](transistoresDeclaman-rev-b/) | En diseño: migración a SMD con ensamblado en JLCPCB (PCBA) y corrección de los issues de rev-a. |
+
+## flujo de trabajo (rev-b)
+
+seguimos el [flujo de partes-jlcpcb](https://github.com/piruetasxyz/partes-jlcpcb/blob/main/flujo.md).
+
+- [ ] issues de rev-a corregidos en el esquemático (pin 5 del 555, desacople de U3, Q1)
+- [ ] esquemático dibujado y ERC sin errores
+- [ ] partes elegidas en LCSC; las que faltaban, compradas y en el inventario
+- [ ] campo `LCSC` lleno en cada símbolo que se ensambla; `bom.csv` actualizado
+- [ ] biblioteca local generada con `generar_biblioteca.py` y huellas asignadas
+- [ ] placa diseñada, zonas rellenas
+- [ ] DRC sin errores, con paridad entre esquemático y placa
+- [ ] archivos generados con `generar_fabricacion.py` y commiteados
+- [ ] vista previa de JLCPCB revisada pieza por pieza
+
+## Esquemático rev-a
+
+![sch](./transistoresDeclaman-rev-a/sch.png)
 
 - Control de frecuencia de 3 osciladores por medio de trimpots
 
@@ -21,7 +42,7 @@ También utilizada en obra ["Transistores en tránsito"](https://misaa.cc/projec
 
 - Poesía basada en Jussi Parikka
 
-### Issues versión JLC Y44-2398046A 
+### Issues rev-a (JLC Y44-2398046A) 
 
 - Pin 5 de 555 NO debe ir a tierra directamente
 
@@ -32,7 +53,7 @@ También utilizada en obra ["Transistores en tránsito"](https://misaa.cc/projec
 - Las bobinas deben ser de alrededor de 8 a 12 ohm
 
 
-## BOM
+## BOM rev-a
 
 | Reference                                     | Value       | Footprint                 | Qty |
 |------------------------------------------     |-------------|---------------------------|-----|
@@ -59,9 +80,9 @@ También utilizada en obra ["Transistores en tránsito"](https://misaa.cc/projec
 
 \* Reemplazar por puente entre pines 2 y 3
 
-![layout](layout_front.png)
+![layout](transistoresDeclaman-rev-a/layout_front.png)
 
-![layout](layout_back.png)
+![layout](transistoresDeclaman-rev-a/layout_back.png)
 
 ## Expo MAC
 

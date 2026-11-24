@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "LIBRERIAS")(type "KiCad")(uri "${KIPRJMOD}/bibliotecas/LIBRERIAS.pretty")(options "")(descr "huellas propias del proyecto"))
+)
