@@ -4208,6 +4208,12 @@
 		(uuid "3ae1b40a-5345-44f2-a2b2-dce237534097")
 	)
 	(junction
+		(at 217.17 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42ef25b1-376a-48db-9e79-4323f6093dab")
+	)
+	(junction
 		(at 246.38 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4236,12 +4242,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ad02d53-be1f-468c-8e8e-6648f851a966")
-	)
-	(junction
-		(at 220.98 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "60e30745-bdf9-456e-94a3-2437bef6d9a8")
 	)
 	(junction
 		(at 170.18 121.92)
@@ -4284,6 +4284,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c76fc76-5819-42be-a6d0-0205ccce1126")
+	)
+	(junction
+		(at 200.66 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d04cf2f-c7e9-4c92-98a1-22c74b98b62d")
 	)
 	(junction
 		(at 29.21 152.4)
@@ -4388,16 +4394,16 @@
 		(uuid "ec661a05-6f61-4f59-9458-65016e4f86a3")
 	)
 	(junction
-		(at 200.66 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f14241d3-72e3-43c7-8cd5-30a1667bb93f")
-	)
-	(junction
 		(at 154.94 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f59e948b-2299-4d3f-a275-82dfa8ccf644")
+	)
+	(junction
+		(at 90.17 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f89ef7a5-6d18-49eb-b393-3293c6851964")
 	)
 	(junction
 		(at 170.18 114.3)
@@ -4428,10 +4434,6 @@
 	(no_connect
 		(at 41.91 105.41)
 		(uuid "7707edb0-aa3d-4055-9326-29450e1c1cd5")
-	)
-	(no_connect
-		(at 93.98 113.03)
-		(uuid "982f585a-6996-4b8c-93ff-d8056203a36c")
 	)
 	(no_connect
 		(at 189.23 142.24)
@@ -4493,7 +4495,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 54.61) (xy 220.98 57.15)
+			(xy 217.17 54.61) (xy 217.17 57.15)
 		)
 		(stroke
 			(width 0)
@@ -4540,6 +4542,16 @@
 			(type default)
 		)
 		(uuid "0811bd32-c1f6-43fe-a2b7-5c6b88ff12ed")
+	)
+	(wire
+		(pts
+			(xy 93.98 113.03) (xy 90.17 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "084a9c88-e993-43d1-8176-221bdc2e25c3")
 	)
 	(wire
 		(pts
@@ -5173,7 +5185,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 54.61) (xy 220.98 54.61)
+			(xy 215.9 54.61) (xy 217.17 54.61)
 		)
 		(stroke
 			(width 0)
@@ -5250,6 +5262,16 @@
 			(type default)
 		)
 		(uuid "72891a7e-4fcc-4a9f-85c0-82ce372af51e")
+	)
+	(wire
+		(pts
+			(xy 90.17 113.03) (xy 90.17 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72e62744-9622-4fb4-b37c-fa96b153714f")
 	)
 	(wire
 		(pts
@@ -5903,6 +5925,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 54.61) (xy 222.25 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3a00391-ce03-4939-a49b-671d412463d6")
+	)
+	(wire
+		(pts
 			(xy 195.58 149.86) (xy 195.58 152.4)
 		)
 		(stroke
@@ -6040,16 +6072,6 @@
 			(type default)
 		)
 		(uuid "e9ae0a97-f6aa-4450-9df2-2406bd137715")
-	)
-	(wire
-		(pts
-			(xy 220.98 54.61) (xy 222.25 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb06b8f6-d757-41cf-8157-acb2b4375331")
 	)
 	(wire
 		(pts
@@ -6224,6 +6246,99 @@
 			(project "transistoresDeclaman-rev-b"
 				(path "/13e5c545-f2c4-4009-946d-5036599f0057"
 					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 217.17 146.05 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07297b57-8f51-4db7-a8a7-17fea5a6cd35")
+		(property "Reference" "R23"
+			(at 218.948 144.7799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 218.948 147.3199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "transistoresDeclaman-rev-b:R0805"
+			(at 218.948 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 217.17 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17414"
+			(at 217.17 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7f11b4e8-3891-442a-ad64-02f3c2ee77cf")
+		)
+		(pin "1"
+			(uuid "eb7bc655-0ed8-4589-be54-82b9c65777fe")
+		)
+		(instances
+			(project "transistoresDeclaman-rev-b"
+				(path "/13e5c545-f2c4-4009-946d-5036599f0057"
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -6913,7 +7028,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 220.98 60.96 180)
+		(at 217.17 60.96 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6924,7 +7039,7 @@
 		(fields_autoplaced yes)
 		(uuid "167d77f3-cb93-4370-9a29-27fd821bb76a")
 		(property "Reference" "R16"
-			(at 222.885 59.6899 0)
+			(at 219.075 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6935,7 +7050,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 222.885 62.2299 0)
+			(at 219.075 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6946,7 +7061,7 @@
 			)
 		)
 		(property "Footprint" "transistoresDeclaman-rev-b:R0805"
-			(at 222.758 60.96 90)
+			(at 218.948 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6957,7 +7072,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 60.96 0)
+			(at 217.17 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6968,7 +7083,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 220.98 60.96 0)
+			(at 217.17 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6979,7 +7094,7 @@
 			)
 		)
 		(property "LCSC" "C25611"
-			(at 220.98 60.96 0)
+			(at 217.17 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8878,7 +8993,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D4.0mm_Drill2.0mm"
 			(at 193.04 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -8957,7 +9072,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
 			(at 190.5 127 0)
 			(hide yes)
 			(show_name no)
@@ -9763,84 +9878,6 @@
 			(project "transistoresDeclaman-rev-b"
 				(path "/13e5c545-f2c4-4009-946d-5036599f0057"
 					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 217.17 142.24 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "52c6bd20-8b26-4558-96a9-fb84bffcec71")
-		(property "Reference" "#PWR047"
-			(at 217.17 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 217.17 147.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 217.17 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 217.17 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "86ca06be-9130-4ac5-820e-edd3d515f9ae")
-		)
-		(instances
-			(project "transistoresDeclaman-rev-b"
-				(path "/13e5c545-f2c4-4009-946d-5036599f0057"
-					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -11176,7 +11213,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 267.97 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -12703,7 +12740,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 276.86 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -13307,7 +13344,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 276.86 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -13465,7 +13502,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
 			(at 190.5 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -15284,7 +15321,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 220.98 64.77 0)
+		(at 217.17 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15295,7 +15332,7 @@
 		(fields_autoplaced yes)
 		(uuid "c710e0d8-88ee-4c04-bce5-61d20a5c82a3")
 		(property "Reference" "#PWR048"
-			(at 220.98 71.12 0)
+			(at 217.17 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15306,7 +15343,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 220.98 69.85 0)
+			(at 217.17 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15316,7 +15353,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 64.77 0)
+			(at 217.17 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15327,7 +15364,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 64.77 0)
+			(at 217.17 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15338,7 +15375,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 220.98 64.77 0)
+			(at 217.17 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15803,6 +15840,84 @@
 			(project "transistoresDeclaman-rev-b"
 				(path "/13e5c545-f2c4-4009-946d-5036599f0057"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 217.17 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d26d95f8-c5cc-45a1-9a8b-c7d764dd4977")
+		(property "Reference" "#PWR060"
+			(at 217.17 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.17 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 217.17 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1954fff4-efbb-4228-8273-e59b30f96fb1")
+		)
+		(instances
+			(project "transistoresDeclaman-rev-b"
+				(path "/13e5c545-f2c4-4009-946d-5036599f0057"
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -16742,7 +16857,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D4.0mm_Drill2.0mm"
 			(at 193.04 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -18005,7 +18120,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 267.97 154.94 0)
 			(hide yes)
 			(show_name no)

@@ -22,15 +22,43 @@ También utilizada en obra ["Transistores en tránsito"](https://misaa.cc/projec
 
 seguimos el [flujo de partes-jlcpcb](https://github.com/piruetasxyz/partes-jlcpcb/blob/main/flujo.md).
 
-- [ ] issues de rev-a corregidos en el esquemático (pin 5 del 555, desacople de U3, Q1)
-- [ ] esquemático dibujado y ERC sin errores
-- [ ] partes elegidas en LCSC; las que faltaban, compradas y en el inventario
-- [ ] campo `LCSC` lleno en cada símbolo que se ensambla; `bom.csv` actualizado
-- [ ] biblioteca local generada con `generar_biblioteca.py` y huellas asignadas
-- [ ] placa diseñada, zonas rellenas
-- [ ] DRC sin errores, con paridad entre esquemático y placa
-- [ ] archivos generados con `generar_fabricacion.py` y commiteados
+- [x] issues de rev-a corregidos en el esquemático (pin 5 del 555, desacople de U3, Q1)
+- [x] esquemático dibujado y ERC sin errores
+- [x] partes elegidas en LCSC
+- [ ] las que faltaban, compradas y en el inventario (ver [partes por comprar](#partes-por-comprar-rev-b-15-placas))
+- [x] campo `LCSC` lleno en cada símbolo que se ensambla; `bom.csv` actualizado
+- [x] biblioteca local generada con `generar_biblioteca.py` y huellas asignadas
+- [x] placa diseñada, zonas rellenas
+- [x] DRC sin errores, con paridad entre esquemático y placa
+- [x] archivos generados con `generar_fabricacion.py` y commiteados
 - [ ] vista previa de JLCPCB revisada pieza por pieza
+
+## partes por comprar (rev-b, 15 placas)
+
+partes que no están en el [inventario de JLCPCB](https://github.com/misaaaaaa/partes-jlcpcb-fork/blob/main/partes_updated.csv). se sacan de acá a medida que se confirma la compra. los mínimos son por placa × 15, sin repuesto: conviene sumar ~10 % y revisar el mínimo de compra de JLCPCB.
+
+### SMD, ensambladas por JLCPCB
+
+| LCSC | Parte | Encapsulado | Tipo | Referencias | Por placa | Mínimo (15) |
+|---|---|---|---|---|---|---|
+| C17673 | 4,7 kΩ 1 % | 0805 | Basic | R4, R19–R21 | 4 | 60 |
+| C8678 | SS34 | SMA | Basic | D10, D12 | 2 | 30 |
+| C8512 | MMBT2222A | SOT-23 | Basic | Q1, Q3 | 2 | 30 |
+| C6986 | TLC555CDR | SOIC-8 | Extended | U3 | 1 | 15 |
+| C99124 | AOD4184A | TO-252 | Extended | Q2 | 1 | 15 |
+| C2128 | 1N4148WS | SOD-323 | Basic | D8 | 1 | 15 |
+
+### THT, soldadas a mano
+
+| Parte | Referencias | Por placa | Mínimo (15) |
+|---|---|---|---|
+| CD4093BE (DIP-14), con zócalo | U1, U2 | 2 | 30 |
+| LED amarillo 3 mm | D1–D7, D9, D11 | 9 | 135 |
+| Trimpot 100k vertical (tipo Runtron RM-065) | RV1–RV4 | 4 | 60 |
+| Jack DC horizontal | J2, J3 | 2 | 30 |
+| Header 2×3, 2,54 mm | J1 | 1 | 15 |
+| Header 1×2, 2,54 mm | J4 | 1 | 15 |
+| Jumper 2,54 mm | J1, J4 | 2 | 30 |
 
 ## Esquemático rev-a
 
