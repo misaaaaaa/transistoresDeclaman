@@ -25,7 +25,7 @@ seguimos el [flujo de partes-jlcpcb](https://github.com/piruetasxyz/partes-jlcpc
 - [x] issues de rev-a corregidos en el esquemático (pin 5 del 555, desacople de U3, Q1)
 - [x] esquemático dibujado y ERC sin errores
 - [x] partes elegidas en LCSC
-- [ ] las que faltaban, compradas y en el inventario (ver [partes por comprar](#partes-por-comprar-rev-b-15-placas))
+- [x] las que faltaban, compradas y en el inventario (ver [partes por comprar](#partes-por-comprar-rev-b-15-placas))
 - [x] campo `LCSC` lleno en cada símbolo que se ensambla; `bom.csv` actualizado
 - [x] biblioteca local generada con `generar_biblioteca.py` y huellas asignadas
 - [x] placa diseñada, zonas rellenas
@@ -39,14 +39,7 @@ partes que no están en el [inventario de JLCPCB](https://github.com/misaaaaaa/p
 
 ### SMD, ensambladas por JLCPCB
 
-| LCSC | Parte | Encapsulado | Tipo | Referencias | Por placa | Mínimo (15) |
-|---|---|---|---|---|---|---|
-| C17673 | 4,7 kΩ 1 % | 0805 | Basic | R4, R19–R21 | 4 | 60 |
-| C8678 | SS34 | SMA | Basic | D10, D12 | 2 | 30 |
-| C8512 | MMBT2222A | SOT-23 | Basic | Q1, Q3 | 2 | 30 |
-| C6986 | TLC555CDR | SOIC-8 | Extended | U3 | 1 | 15 |
-| C99124 | AOD4184A | TO-252 | Extended | Q2 | 1 | 15 |
-| C2128 | 1N4148WS | SOD-323 | Basic | D8 | 1 | 15 |
+todas compradas y en el inventario (2026-11-27): C17673, C8678, C8512, C6986, C99124 y C2128.
 
 ### THT, soldadas a mano
 
